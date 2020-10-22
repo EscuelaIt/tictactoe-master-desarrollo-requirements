@@ -8,8 +8,9 @@
 
 ❗ :exclamation:	La instalación corresponde al entorno Visual Studio Code.
 
-:one: Realizar la instalacion , abrir el CMD como administrador.
-    :heavy_minus_sign: @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"  
+:one: Realizar la instalacion , abrir el CMD como administrador.  
+    :heavy_minus_sign: @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+    
     :heavy_minus_sign: choco install plantuml
 
 2. Instalar el plugin de plantUML para Visual Studio Code.
