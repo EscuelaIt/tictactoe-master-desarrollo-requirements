@@ -18,13 +18,13 @@
     
     choco install plantuml
 
-:two: Instalar el plugin de plantUML para Visual Studio Code.
+:two: Instalar el plugin de plantUML para Visual Studio Code.  
     
-    2.1 En plantUML Ir a extensiones y escribir escribir plantuml.
-
-	2.2 Botón derecho sobre la primera (PlantUML Rich PlantUML support) -> Extension Settings
-
-	2.3 Apartado Plantuml: Diagrams Root (Se establece la carpeta donde van a estar localizados los diagramas .png
+   2.1 En plantUML Ir a extensiones y escribir escribir plantuml.
+   
+   2.2 Botón derecho sobre la primera (PlantUML Rich PlantUML support) -> Extension Settings
+   
+   2.3 Apartado Plantuml: Diagrams Root (Se establece la carpeta donde van a estar localizados los diagramas .png
 		Ruta: "docs/diagrams/src"
 
 	2.4 Apartado Plantuml: Export Out Dir (Se establece la carpeta para exportar los diagramas)
