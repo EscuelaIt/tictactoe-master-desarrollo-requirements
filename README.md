@@ -6,7 +6,7 @@
 
 ### Instalación:
 
-❗ La instalación corresponde al entorno Visual Studio Code.
+#### ❗ La instalación corresponde al entorno Visual Studio Code.
 
 :one: Realizar la instalacion , abrir el CMD como administrador.
   
@@ -50,18 +50,17 @@
   - :file_folder: rest_of_your_project_folders/  
   
 
-:four: Permite includepaths, estos se incuyen en un fichero de configuración en JSON( Falta investigación)
+ Permite includepaths, estos se incuyen en un fichero de configuración en JSON( Falta investigación)
 
-7. Para generar el diagrama es necesario presionar Alt+D , la primera vez, despues se recarga automaticamente.
+:four: Para generar el diagrama es necesario presionar **Alt+D**, la primera vez, despues se recarga automaticamente.
 
-8. Paginación en un diagrama, util para digramas grandes.
-	- newpage
-	- title: Justo debajo de newPage, para indicar en que se centra el diagrama.
+:five: Exportar un diagrama, **boton derecho "Export current diagram"** se genera el "svg" en la carpeta out/
+  + Se genera una carpeta con el nombre del fichero.
 
-9. Exportar un diagrama, boton derecho "Export current diagram" se genera el "svg" en la carpeta out/
+:six: Paginación en un diagrama, util para digramas grandes.
+  - newpage
+  - title: Justo debajo de newPage, para indicar en que se centra el diagrama.
 
-10. Generar URL, boton derecho "Generate URL for current diagram" en la c
 
-No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg
-Respetando la estructura del punto 5.
+### :heavy_exclamation_mark: No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg  Respetando la estructura del punto 5.
 
