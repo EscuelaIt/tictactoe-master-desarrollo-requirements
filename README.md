@@ -1,10 +1,15 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<i class="fas fa-play-circle"></i>
+
+
 ## Secuencia de versiones TicTacToe
 
 :information_source: Este diagrama muestra las diferentes versiones del juego TicTacToe
 
 ![DiagramaSecuencia](/docs/diagrams/out/TicTacToe/TicTacToe.svg)
 
-#### <i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Configuration
+#### Configuration
 
 #### ❗ La instalación corresponde al entorno Visual Studio Code.
 
