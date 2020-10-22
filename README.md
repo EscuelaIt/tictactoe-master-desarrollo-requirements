@@ -60,5 +60,5 @@
   - title: Justo debajo de newPage, para indicar en que se centra el diagrama.
 
 
-## :heavy_exclamation_mark: No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg  Respetando la estructura del punto 5.
+#### :heavy_exclamation_mark: No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg  Respetando la estructura del punto
 
