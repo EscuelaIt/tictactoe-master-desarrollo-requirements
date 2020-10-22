@@ -18,13 +18,13 @@
     
     choco install plantuml
 
-:two: Instalar el plugin de plantUML para Visual Studio Code.  
-    
-   2.1 En plantUML Ir a extensiones y escribir escribir plantuml.
+:two: Instalar el plugin de plantUML para Visual Studio Code.
+
+	2.1 En plantUML Ir a extensiones y escribir escribir plantuml.
+	
+	2.2 Botón derecho sobre la primera (PlantUML Rich PlantUML support) -> Extension Settings
    
-   2.2 Botón derecho sobre la primera (PlantUML Rich PlantUML support) -> Extension Settings
-   
-   2.3 Apartado Plantuml: Diagrams Root (Se establece la carpeta donde van a estar localizados los diagramas .png
+  	2.3 Apartado Plantuml: Diagrams Root (Se establece la carpeta donde van a estar localizados los diagramas .png
 		Ruta: "docs/diagrams/src"
 
 	2.4 Apartado Plantuml: Export Out Dir (Se establece la carpeta para exportar los diagramas)
@@ -36,22 +36,21 @@
 	2.6 Plantuml: Server (Establecer servidor de PlantUML)
 		Escribir la ruta oficial del servidor de Plantuml: "https://www.plantuml.com/plantuml"
 
-4. Separar cada diagrama de forma independiente.
 
-5. Estructura del proyecto:
+:three: Dentro de nuestro proyecto debemos tener una carpeta **docs/** con la siguiente estructura. La carpeta **/out** se va a a generar automaticamente al exportar los diagramas.
 	
-	Project Folder/
-  docs/
-    diagrams/
-      src/
-        architecture_overview.wsd
-      out/
-        architecture_overview/
-          architecture_overview.png
-  ...rest_of_your_project_folders/
-  ...rest_of_your_project_files 
+- :file_folder: Project Folder/
+    - :file_folder: docs/  
+        - :file_folder:diagrams/  
+            - :file_folder:src/  
+                - :file_folder:architecture_overview.wsd  
+            - :file_folder: out/  
+                - :file_folder: architecture_overview/  
+                    - :file_folder: architecture_overview.png  
+  - :file_folder: rest_of_your_project_folders/  
+  
 
-6. Permite includepaths, estos se incuyen en un fichero de configuración en JSON( Falta investigación)
+:four: Permite includepaths, estos se incuyen en un fichero de configuración en JSON( Falta investigación)
 
 7. Para generar el diagrama es necesario presionar Alt+D , la primera vez, despues se recarga automaticamente.
 
