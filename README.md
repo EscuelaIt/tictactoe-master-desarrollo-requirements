@@ -4,7 +4,7 @@
 
 ![DiagramaSecuencia](/docs/diagrams/out/TicTacToe/TicTacToe.svg)
 
-### Instalación:
+#### <i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Configuration
 
 #### ❗ La instalación corresponde al entorno Visual Studio Code.
 
@@ -49,8 +49,6 @@
                     - :file_folder: architecture_overview.png  
   - :file_folder: rest_of_your_project_folders/  
   
-
- Permite includepaths, estos se incuyen en un fichero de configuración en JSON( Falta investigación)
 
 :four: Para generar el diagrama es necesario presionar **Alt+D**, la primera vez, despues se recarga automaticamente.
 
