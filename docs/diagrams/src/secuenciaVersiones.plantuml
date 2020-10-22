@@ -1,0 +1,32 @@
+@startuml TicTacToe
+
+title Secuencia versiones TicTacToe
+[*] --> domainModel
+state domainModel
+state documentView
+state modelViewController
+state modelViewPresenter
+
+domainModel --> documentView
+
+state documentView {
+  state console
+  state withFactoryMethod
+  state withoutFactoryMethod
+  console --> withoutFactoryMethod
+  withoutFactoryMethod --> withFactoryMethod
+}
+
+documentView --> modelViewController
+modelViewController --> modelViewPresenter
+
+state modelViewPresenter{
+state presentationModel
+state passiveView
+state supervisorController
+
+presentationModel-->passiveView
+passiveView-->supervisorController
+}
+modelViewPresenter  --> [*]
+@enduml
