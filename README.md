@@ -8,12 +8,12 @@
 
 ❗ La instalación corresponde al entorno Visual Studio Code.
 
-:one: Realizar la instalacion , abrir el CMD como administrador.
-	:heavy_minus_sign: Primer comando
+:one: Realizar la instalacion , abrir el CMD como administrador.  
+:heavy_minus_sign: Primer comando
 
 	@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 	
-	:heavy_minus_sign: Segundo comando
+:heavy_minus_sign: Segundo comando
     
     choco install plantuml
 
