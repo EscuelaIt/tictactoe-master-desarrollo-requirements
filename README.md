@@ -1,17 +1,12 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+# Secuencia de versiones TicTacToe
 
-<i class="fas fa-play-circle"></i>
-
-
-## Secuencia de versiones TicTacToe
-
-:information_source: Este diagrama muestra las diferentes versiones del juego TicTacToe
+## :information_source: Este diagrama muestra las diferentes versiones del juego TicTacToe
 
 ![DiagramaSecuencia](/docs/diagrams/out/TicTacToe/TicTacToe.svg)
 
-#### Configuration
+# :gear: Configuration
 
-#### ❗ La instalación corresponde al entorno Visual Studio Code.
+### ❗ La instalación corresponde al entorno Visual Studio Code.
 
 :one: Realizar la instalacion , abrir el CMD como administrador.
   
@@ -65,5 +60,5 @@
   - title: Justo debajo de newPage, para indicar en que se centra el diagrama.
 
 
-### :heavy_exclamation_mark: No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg  Respetando la estructura del punto 5.
+## :heavy_exclamation_mark: No es necesario instalar el plugin para hacer la documentación. Se pueden exportar los diagramas en svg en plantext y meterlos en la carpeta out/nombrefichero/nombrediagrama.svg  Respetando la estructura del punto 5.
 
