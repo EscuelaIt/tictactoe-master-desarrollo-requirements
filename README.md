@@ -10,7 +10,7 @@ version 0.1.6
 1.2. [Estado inicial](#estado-inicial)  
 1.3. [Estado final. Objetivo TicTacToe en 3ª fila](#estado-final-objetivo-tictactoe-en-3ª-fila)  
 1.4. [Instrucciones](#instrucciones)  
-2. [Versión](#version)
+2. [Versiones](#versiones)
 
 # Modelo del dominio  
   
@@ -32,6 +32,6 @@ version 0.1.6
   
 ![Instrucciones](./docs/diagrams/out/modeloDeDominio/Instrucciones.svg)  
   
-# Versión  
+# Versiones  
   
-![Version](./docs/diagrams/out/version/version.svg)  
+![Versiones](./docs/diagrams/out/version/version.svg)  
