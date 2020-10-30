@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="669px" preserveAspectRatio="none" style="width:480px;height:669px;" version="1.1" viewBox="0 0 480 669" width="480px" zoomAndPan="magnify"><defs><filter height="300%" id="fy1wz99ovoljv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="650.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="461.5" x="7" y="7"/><rect fill="#FFFFFF" height="618" rx="12.5" ry="12.5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="455.5" x="10" y="36.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="468.5" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="202.75" y="24.9951">Versiones</text><g id="Versiones.Básica"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="52.5" y="102.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="52.5" x2="117.5" y1="129.0938" y2="129.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="45" x="62.5" y="120.792">Básica</text></g><g id="Versiones.Gráficos"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="45.5" y="191.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="45.5" x2="124.5" y1="217.5938" y2="217.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="59" x="55.5" y="209.292">Gráficos</text></g><g id="Versiones.UndoRedo"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="93" x="38.5" y="277.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="38.5" x2="131.5" y1="303.5938" y2="303.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="73" x="48.5" y="295.292">UndoRedo</text></g><g id="Versiones.ClienteServidor"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="19" y="363.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="151" y1="389.5938" y2="389.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="29" y="381.292">ClienteServidor</text></g><g id="Versiones.Ficheros"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="80" x="45" y="449.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="45" x2="125" y1="475.5938" y2="475.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="55" y="467.292">Ficheros</text></g><g id="Versiones.BasesDatos"><rect fill="#FEFECE" filter="url(#fy1wz99ovoljv)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="33.5" y="535.2969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="33.5" x2="136.5" y1="561.5938" y2="561.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="43.5" y="553.292">BasesDatos</text></g><ellipse cx="85" cy="54.2969" fill="#000000" filter="url(#fy1wz99ovoljv)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><ellipse cx="85" cy="631.2969" fill="none" filter="url(#fy1wz99ovoljv)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="85.5" cy="631.7969" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><path d="M136,100.2969 L136,123.7969 L117.7754,127.7969 L136,131.7969 L136,155.6953 A0,0 0 0 0 136,155.6953 L380,155.6953 A0,0 0 0 0 380,155.6953 L380,110.2969 L370,100.2969 L136,100.2969 A0,0 0 0 0 136,100.2969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M370,100.2969 L370,110.2969 L380,110.2969 L370,100.2969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="223" x="142" y="117.3638">Juego de las 3 en raya con interfaz</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="201" x="142" y="132.4966">de consola y con casos de uso:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="182" x="142" y="147.6294">arrancar, jugar y continuará.</text><path d="M143,203.7969 L143,212.2969 L124.658,216.2969 L143,220.2969 L143,228.9297 A0,0 0 0 0 143,228.9297 L337,228.9297 A0,0 0 0 0 337,228.9297 L337,213.7969 L327,203.7969 L143,203.7969 A0,0 0 0 0 143,203.7969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M327,203.7969 L327,213.7969 L337,213.7969 L327,203.7969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="173" x="149" y="220.8638">Añadiendo interfaz gráfica.</text><path d="M150,282.2969 L150,298.2969 L131.641,302.2969 L150,306.2969 L150,322.5625 A0,0 0 0 0 150,322.5625 L418,322.5625 A0,0 0 0 0 418,322.5625 L418,292.2969 L408,282.2969 L150,282.2969 A0,0 0 0 0 150,282.2969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M408,282.2969 L408,292.2969 L418,292.2969 L408,282.2969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="247" x="156" y="299.3638">Añadiendo funcionalidad con deshacer</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="156" y="314.4966">y rehacer jugadas.</text><path d="M169,375.7969 L169,384.2969 L151.172,388.2969 L169,392.2969 L169,400.9297 A0,0 0 0 0 169,400.9297 L441,400.9297 A0,0 0 0 0 441,400.9297 L441,385.7969 L431,375.7969 L169,375.7969 A0,0 0 0 0 169,375.7969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M431,375.7969 L431,385.7969 L441,385.7969 L431,375.7969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="175" y="392.8638">Añadiendo distribución cliente/servidor.</text><path d="M143,454.2969 L143,470.2969 L125.043,474.2969 L143,478.2969 L143,494.5625 A0,0 0 0 0 143,494.5625 L429,494.5625 A0,0 0 0 0 429,494.5625 L429,464.2969 L419,454.2969 L143,454.2969 A0,0 0 0 0 143,454.2969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M419,454.2969 L419,464.2969 L429,464.2969 L419,454.2969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="265" x="149" y="471.3638">Añadiendo funcionalidad con persistencia</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="149" y="486.4966">de ficheros.</text><path d="M154.5,547.7969 L154.5,556.2969 L136.598,560.2969 L154.5,564.2969 L154.5,572.9297 A0,0 0 0 0 154.5,572.9297 L459.5,572.9297 A0,0 0 0 0 459.5,572.9297 L459.5,557.7969 L449.5,547.7969 L154.5,547.7969 A0,0 0 0 0 154.5,547.7969 " fill="#15D2F3" filter="url(#fy1wz99ovoljv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M449.5,547.7969 L449.5,557.7969 L459.5,557.7969 L449.5,547.7969 " fill="#15D2F3" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="284" x="160.5" y="564.8638">Adaptando persistencia con bases de datos.</text><!--MD5=[deea25426be4fb9b6ff9260ad6e77897]
+link *start*Versiones to Básica--><path d="M85,64.3529 C85,72.7699 85,85.7739 85,97.7409 " fill="none" id="*start*Versiones-to-Básica" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,102.7899,89,93.7899,85,97.7899,81,93.7899,85,102.7899" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9840c15ac0cf6d125738567f23ab12c8]
+link Básica to Gráficos--><path d="M85,152.8919 C85,163.1159 85,175.1309 85,185.8729 " fill="none" id="Básica-to-Gráficos" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,191.0309,89,182.0309,85,186.0309,81,182.0309,85,191.0309" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f84994fe424171fa73ab202e8d1682ff]
+link Gráficos to UndoRedo--><path d="M85,241.5929 C85,251.0829 85,262.0499 85,271.9739 " fill="none" id="Gráficos-to-UndoRedo" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,277.0549,89,268.0549,85,272.0549,81,268.0549,85,277.0549" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[518d0a0fdd1b437d9b8bddfda61a7673]
+link UndoRedo to ClienteServidor--><path d="M85,327.5929 C85,337.0829 85,348.0499 85,357.9739 " fill="none" id="UndoRedo-to-ClienteServidor" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,363.0549,89,354.0549,85,358.0549,81,354.0549,85,363.0549" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[314dd3092bc937f8551317235c4480a2]
+link ClienteServidor to Ficheros--><path d="M85,413.5929 C85,423.0829 85,434.0499 85,443.9739 " fill="none" id="ClienteServidor-to-Ficheros" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,449.0549,89,440.0549,85,444.0549,81,440.0549,85,449.0549" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28750a9e82a22816a1b2c2e97b9ba5ff]
+link Ficheros to BasesDatos--><path d="M85,499.5929 C85,509.0829 85,520.0499 85,529.9739 " fill="none" id="Ficheros-to-BasesDatos" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,535.0549,89,526.0549,85,530.0549,81,526.0549,85,535.0549" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d3b4b088a1a26b448bcad33a59e8663e]
+link BasesDatos to *end*Versiones--><path d="M85,585.4298 C85,595.5996 85,607.0944 85,615.903 " fill="none" id="BasesDatos-to-*end*Versiones" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="85,621.0047,89,612.0047,85,616.0047,81,612.0047,85,621.0047" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8ac8847687349431bd780732d73bbc7d]
+@startuml
+state Versiones {
+state Básica
+state Gráficos
+state UndoRedo
+state ClienteServidor
+State Ficheros
+State BasesDatos
+
+[*] - -> Básica
+Básica - -> Gráficos
+Gráficos - -> UndoRedo
+UndoRedo - -> ClienteServidor
+ClienteServidor - -> Ficheros
+Ficheros - -> BasesDatos
+BasesDatos - -> [*]
+
+
+
+note right of Básica #15D2F3
+  Juego de las 3 en raya con interfaz
+  de consola y con casos de uso:
+  arrancar, jugar y continuará.
+end note
+
+note right of Gráficos #15D2F3
+  Añadiendo interfaz gráfica.
+end note
+
+note right of UndoRedo #15D2F3
+  Añadiendo funcionalidad con deshacer
+  y rehacer jugadas.
+end note
+
+note right of ClienteServidor #15D2F3
+  Añadiendo distribución cliente/servidor.
+end note
+
+note right of Ficheros #15D2F3
+  Añadiendo funcionalidad con persistencia
+  de ficheros.
+end note
+
+note right of BasesDatos #15D2F3
+  Adaptando persistencia con bases de datos.
+end note
+}
+@enduml
+
+PlantUML version 1.2020.20beta8(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
