@@ -1,6 +1,5 @@
 @startuml version
 
-state Versiones {
 state Básica
 state Gráficos
 state UndoRedo
@@ -45,6 +44,6 @@ end note
 note right of BasesDatos #15D2F3
   Adaptando persistencia con bases de datos.
 end note
-}
+
 
 @enduml
