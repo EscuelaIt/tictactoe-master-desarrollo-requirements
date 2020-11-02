@@ -7,6 +7,7 @@ Universo Santa Tecla
 1. [Requisitos](#requisitos)  
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
 2.1. [Prototipo de Interfaz](#prototipo-de-interfaz)  
+2.1.1. [Consola](#consola)  
   
 ## Requisitos  
 
