@@ -1,8 +1,7 @@
-## TicTacToe
-Santa Tecla  
-[parqueNaturalSantaTecla@gmail.com](mailto:parqueNaturalSantaTecla@gmail.com)  
-version 0.1.6  
-
+# TicTacToe
+Universo Santa Tecla  
+[uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
+  
 **Índice**
 
 1. [Modelo del dominio](#modelo-del-dominio)  
@@ -12,26 +11,26 @@ version 0.1.6
 1.4. [Instrucciones](#instrucciones)  
 2. [Versiones](#versiones)
 
-# Modelo del dominio  
+## Modelo del dominio  
   
 ![Tictactoe](docs/images/tictactoe.png)  
   
-## Vocabulario
+### Vocabulario
 
 ![Vocabulario](./docs/diagrams/out/modeloDeDominio/Vocabulario.svg)  
   
-## Estado inicial  
+### Estado inicial  
   
 ![Estado_inicial](./docs/diagrams/out/modeloDeDominio/EstadoInicial.svg)  
   
-## Estado final. Objetivo TicTacToe en 3ª fila
+### Estado final. Objetivo TicTacToe en 3ª fila
 
 ![Estado_final](./docs/diagrams/out/modeloDeDominio/EstadoFinal.svg)  
   
-## Instrucciones  
+### Instrucciones  
   
 ![Instrucciones](./docs/diagrams/out/modeloDeDominio/Instrucciones.svg)  
   
-# Versiones  
+## Versiones  
   
 ![Versiones](./docs/diagrams/out/version/version.svg)  

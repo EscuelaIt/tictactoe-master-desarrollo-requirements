@@ -1,0 +1,23 @@
+@startuml actores
+left to right direction
+actor Player
+usecase Start
+usecase Play
+usecase Resume
+
+Player --> Start
+Player --> Play
+Player --> Resume
+@enduml
+
+@startuml contexto
+state State0 as " "
+state State1 as " "
+state State2 as " "
+[*] --> State0
+State0 --> State1 : Start
+State1 --> State1 : Play
+State1 --> State2 : [isTicTacToe]Resume
+State2 --> State0 : [isResumed]
+State2 --> [*] : [else]
+@enduml
