@@ -1,4 +1,4 @@
-# TicTacToe. Requisitos Gráficos
+# TicTacToe. Requisitos Cliente/Servidor
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
@@ -7,11 +7,10 @@ Universo Santa Tecla
 1. [Requisitos](#requisitos)  
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
 2.1. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-2.1.1. [Consola](#consola)  
   
 ## Requisitos  
 
-| * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![TicTacToe](../docs/images/tictactoe.png) | 
+| * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone + Client/Server**_<br/>  * _Persistencia: **No**_<br/> | ![TicTacToe](../docs/images/tictactoe.png) | 
 | :------- | :------: |  
 
 ## Vista de Casos de Uso  
@@ -22,4 +21,3 @@ Universo Santa Tecla
 
 ### Prototipo de Interfaz  
 
-#### Consola
