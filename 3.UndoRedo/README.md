@@ -22,4 +22,85 @@ Universo Santa Tecla
 
 ### Prototipo de Interfaz  
 
-#### Consola
+#### Consola  
+
+```
+--- TIC TAC TOE ---
+Number of user? [0, 2]: 1
+-------------
+|   |   |   | 
+|   |   |   | 
+|   |   |   | 
+-------------
+
+1) Do a action
+Option? [1-1]: 1
+Coordinate to put
+Row: 1
+Column: 1
+-------------
+| X |   |   | 
+|   |   |   | 
+|   |   |   | 
+-------------
+-------------
+| X |   |   | 
+|   |   |   | 
+|   | O |   | 
+-------------
+
+1) Do a action
+2) Undo previous action
+Option? [1-2]: 1
+Coordinate to put
+Row: 1
+Column: 2
+-------------
+| X | X |   | 
+|   |   |   | 
+|   | O |   | 
+-------------
+-------------
+| X | X |   | 
+|   | O |   | 
+|   | O |   | 
+-------------
+
+1) Do a action
+2) Undo previous action
+Option? [1-2]: 2
+-------------
+| X |   |   | 
+|   |   |   | 
+|   | O |   | 
+-------------
+
+1) Do a action
+2) Undo previous action
+3) Redo previous action
+Option? [1-3]: 3
+-------------
+| X | X |   | 
+|   |   |   | 
+|   | O |   | 
+-------------
+-------------
+| X | X |   | 
+|   | O |   | 
+|   | O |   | 
+-------------
+
+1) Do a action
+2) Undo previous action
+Option? [1-2]: 1
+Coordinate to put
+Row: 1
+Column: 3
+X Player: You win!!! :-)
+-------------
+| X | X | X | 
+|   | O |   | 
+|   | O |   | 
+-------------
+Do you want to continue? (y/n):
+```
