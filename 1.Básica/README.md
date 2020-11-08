@@ -26,8 +26,6 @@ Universo Santa Tecla
   
 #### Número de jugadores: 0  
 ```
---- TIC TAC TOE ---  
-Number of user? [0, 2]: 0  
 --- TIC TAC TOE ---
 Number of user? [0, 2]: 0
 -------------
