@@ -34,7 +34,7 @@ Universo Santa Tecla
 
 #### Consola  
   
-###### Número de jugadores: 0  
+##### Número de jugadores: 0  
 
 ```
 --- TIC TAC TOE ---
