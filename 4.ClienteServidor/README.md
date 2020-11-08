@@ -20,4 +20,140 @@ Universo Santa Tecla
 | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/actores.svg) | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/contexto.svg) |  
 
 ### Prototipo de Interfaz  
+  
+```
+--- TIC TAC TOE ---
+Number of users [0-2] 1
 
+----- Choose one option -----
+1) Do a movement
+1
+-------------
+| - | - | - | 
+| - | - | - | 
+| - | - | - | 
+-------------
+Enter a coordinate to put a token:
+Row: 1
+Column: 1
+-------------
+| X | - | - | 
+| - | - | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+1
+-------------
+| X | - | - | 
+| - | - | - | 
+| - | - | - | 
+-------------
+-------------
+| X | - | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+1
+-------------
+| X | - | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+Enter a coordinate to put a token:
+Row: 1
+Column: 2
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+2
+-------------
+| X | - | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Redo previous movement
+3
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+1
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+-------------
+| X | X | - | 
+| - | O | O | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+2
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Redo previous movement
+1
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | - | - | 
+-------------
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | O | - | 
+-------------
+
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+1
+-------------
+| X | X | - | 
+| - | O | - | 
+| - | O | - | 
+-------------
+Enter a coordinate to put a token:
+Row: 1
+Column: 3
+-------------
+| X | X | X | 
+| - | O | - | 
+| - | O | - | 
+-------------
+O Player: You win!!! :-)
+Do you want to continue? (y/n):
+```
