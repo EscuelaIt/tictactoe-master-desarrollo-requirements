@@ -21,3 +21,113 @@ Universo Santa Tecla
 
 ### Prototipo de Interfaz  
 
+```
+-------------------- TIC TAC TOE --------------------
+----- Choose one option -----
+1) Start a new game
+2) Open a saved game
+1
+Number of users [0-2] 1
+----- Choose one option -----
+1) Do a movement
+2) Exit game
+1
+-----------------------------------------------------
+| - | - | - |
+| - | - | - |
+| - | - | - | 
+-----------------------------------------------------
+Enter a coordinate to put a token:
+Row: 1
+Column: 1
+-----------------------------------------------------
+| X | - | - |
+| - | - | - |
+| - | - | - |
+-----------------------------------------------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+1
+-----------------------------------------------------
+| X | - | - |
+| - | - | - |
+| - | - | - |
+-----------------------------------------------------
+-----------------------------------------------------
+| X | - | O |
+| - | - | - |
+| - | - | - | 
+-----------------------------------------------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+1
+-----------------------------------------------------
+| X | - | O |
+| - | - | - |
+| - | - | - |
+-----------------------------------------------------
+Enter a coordinate to put a token:
+Row: 2
+Column: 1
+-----------------------------------------------------
+| X | - | O |
+| X | - | - | 
+| - | - | - |
+-----------------------------------------------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+1
+-----------------------------------------------------
+| X | - | O |
+| X | - | - |
+| - | - | - |
+-----------------------------------------------------
+-----------------------------------------------------
+| X | - | O |
+| X | - | O |
+| - | - | - |
+-----------------------------------------------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+3
+Do you want to save the game?? (y/n): y
+Name: juego2
+
+
+--- TIC TAC TOE ---
+----- Choose one option -----
+1. Start a new game
+2. Open a saved game
+2
+----- Choose one option -----
+1. juego1.mm
+2. juego2.mm
+2
+juego2.mm
+----- Choose one option -----
+1. Do a movement
+2. Exit game
+1
+| X | - | O |
+X	-	O
+Enter a coordinate to put a token:
+Row: 1
+Column: 4
+The coordinates are wrong
+Enter a coordinate to put a token:
+Row: 3
+Column: 1
+| X | - | O |
+| X | - | O |
+| X | - | - |
+Do you want to save the game?? (y/n): n
+X Player: You win!!! :-)
+```
