@@ -7,9 +7,9 @@ Universo Santa Tecla
 1. [Requisitos](#requisitos)  
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
 2.1. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-2.1.1. [Número de jugadores: 0](#número-de-jugadores:-0)  
-2.1.1. [Número de jugadores: 1](#número-de-jugadores:-1)  
-2.1.1. [Número de jugadores: 2](#número-de-jugadores:-2)  
+2.1.1. [Número de jugadores: 0](#número-de-jugadores-0)  
+2.1.1. [Número de jugadores: 1](#número-de-jugadores-1)  
+2.1.1. [Número de jugadores: 2](#número-de-jugadores-2)  
   
 ## Requisitos  
 
