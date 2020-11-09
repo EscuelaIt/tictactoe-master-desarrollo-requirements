@@ -33,4 +33,4 @@ Universo Santa Tecla
   
 ## Versiones  
   
-![Versiones](./docs/diagrams/out/version/version.svg)  
+![Versiones](./docs/diagrams/out/version/versiones.svg)  
