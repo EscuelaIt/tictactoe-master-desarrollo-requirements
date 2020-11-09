@@ -8,11 +8,11 @@ State Ficheros
 State BasesDatos
 
 [*] --> Básica
-Básica --> Gráficos
-Gráficos --> UndoRedo
-UndoRedo --> ClienteServidor
-ClienteServidor --> Ficheros
-Ficheros --> BasesDatos
+Básica --> Gráficos:Mantenimiento adaptativo
+Gráficos --> UndoRedo:Mantenimiento perfectivo
+UndoRedo --> ClienteServidor:Mantenimiento adaptativo
+ClienteServidor --> Ficheros:Mantenimiento perfectivo
+Ficheros --> BasesDatos:Mantenimiento adaptativo
 BasesDatos --> [*]
 
 
