@@ -7,19 +7,24 @@ state ClienteServidor
 State Ficheros
 State BasesDatos
 
-[*] --> Básica
-Básica --> Gráficos:Mantenimiento adaptativo
+[*] --> Sencilla
+Sencilla --> Básica :Mantenimiento perfectivo
+Sencilla --> Gráficos:Mantenimiento adaptativo
 Gráficos --> UndoRedo:Mantenimiento perfectivo
 UndoRedo --> ClienteServidor:Mantenimiento adaptativo
 ClienteServidor --> Ficheros:Mantenimiento perfectivo
 Ficheros --> BasesDatos:Mantenimiento adaptativo
 BasesDatos --> [*]
 
+note right of Sencilla #15D2F3
+  Juego de las 3 en raya con interfaz de consola
+   y con casos de uso para dos jugadores:
+  arrancar, jugar y continuará.
+end note
 
-
-note right of Básica #15D2F3
-  Juego de las 3 en raya con interfaz
-  de consola y con casos de uso:
+note left of Básica #15D2F3
+  Juego de las 3 en raya con interfaz de consola
+   y con casos de uso añadiendo un jugador máquina:
   arrancar, jugar y continuará.
 end note
 
