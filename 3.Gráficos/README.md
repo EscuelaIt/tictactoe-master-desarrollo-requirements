@@ -34,7 +34,6 @@ Universo Santa Tecla
   
 ```
 --- TIC TAC TOE ---
-Number of user? [0, 2]: 2
 -------------
 |   |   |   | 
 |   |   |   | 
