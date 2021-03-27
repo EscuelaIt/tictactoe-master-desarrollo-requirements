@@ -8,7 +8,7 @@ Universo Santa Tecla
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
 2.1. [Vista de Caso de Uso Start](#vista-de-caso-de-uso-start)  
 2.2. [Vista de Caso de Uso Play](#vista-de-caso-de-uso-play)  
-2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)
+2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)  
 2.4. [Prototipo de Interfaz](#prototipo-de-interfaz)  
 2.4.1. [Gráfica](#grfica)  
 2.4.2. [Consola](#consola)  
