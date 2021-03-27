@@ -10,7 +10,7 @@ Universo Santa Tecla
 2.2. [Vista de Caso de Uso Play](#vista-de-caso-de-uso-play)  
 2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)  
 2.4. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-2.4.1. [Gráfica](#grafica)  
+2.4.1. [Grafica](#grafica)  
 2.4.2. [Consola](#consola)  
 3. [Analisis](#analisis)  
 3.1. [Casos de Uso](#casos-de-uso)  
@@ -45,7 +45,7 @@ Universo Santa Tecla
 
 ### Prototipo de Interfaz  
 
-#### Gráfica
+#### Grafica
 
 | Pantallas | Diálogos |
 |---|---|
