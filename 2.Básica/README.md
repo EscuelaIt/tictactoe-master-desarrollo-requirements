@@ -6,10 +6,23 @@ Universo Santa Tecla
 
 1. [Requisitos](#requisitos)  
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
-2.1. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-2.1.1. [Número de jugadores: 0](#número-de-jugadores-0)  
-2.1.1. [Número de jugadores: 1](#número-de-jugadores-1)  
-2.1.1. [Número de jugadores: 2](#número-de-jugadores-2)  
+2.1. [Vista de Caso de Uso Start](#vista-de-caso-de-uso-start)  
+2.2. [Vista de Caso de Uso Propose](#vista-de-caso-de-uso-propose)  
+2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)    
+2.4. [Prototipo de Interfaz](#prototipo-de-interfaz)  
+2.4.1. [Número de jugadores: 0](#número-de-jugadores-0)  
+2.4.2. [Número de jugadores: 1](#número-de-jugadores-1)  
+2.4.3. [Número de jugadores: 2](#número-de-jugadores-2)  
+3. [Analisis](#analisis)  
+3.1. [Casos de Uso](#casos-de-uso)  
+3.1.1. [Analisis Start](#analisis-start)  
+3.1.2. [Analisis Propose](#analisis-propose)  
+3.1.3. [Analisis Resume](#analisis-resume)  
+3.2. [Paquetes](#paquetes)  
+3.2.1. [Vistas](#vistas)  
+3.2.2. [Controladores](#controladores)  
+3.2.3. [Modelos](#modelos)  
+3.2.4. [Types](#types)  
   
 ## Requisitos  
 
