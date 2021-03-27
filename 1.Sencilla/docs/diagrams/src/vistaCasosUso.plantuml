@@ -11,13 +11,100 @@ Player --> Resume
 @enduml
 
 @startuml contexto
-state State0 as " "
-state State1 as " "
-state State2 as " "
-[*] --> State0
-State0 --> State1 : Start
-State1 --> State1 : Play
-State1 --> State2 : [isTicTacToe]Resume
-State2 --> State0 : [isResumed]
-State2 --> [*] : [else]
+state INITIAL
+state IN_GAME
+state OUT_GAME
+state EXIT
+state if_finished <<choice>>
+state if_resumed <<choice>>
+
+[*] --> INITIAL
+INITIAL --> IN_GAME: Start
+IN_GAME --> if_finished: Play
+if_finished --> IN_GAME
+if_finished --> OUT_GAME: [finished]
+OUT_GAME --> if_resumed: Resume
+if_resumed --> INITIAL: [continued]
+if_resumed --> EXIT
+EXIT --> [*]
+@enduml
+
+@startuml StateDiagramFluxInitialState
+state INITIAL
+state IN_GAME
+state start as " "
+state started as " "
+[*] --> INITIAL
+INITIAL --> start: Player requests to start a new game
+start --> started: System shows the title and the empty board
+started --> IN_GAME: System allows Play
+IN_GAME --> [*]
+@enduml
+
+@startuml StateDiagramFluxPlayState
+state A as "IN_GAME"
+state B as " "
+state C as " "
+state D as " "
+state E as " "
+state F as " "
+state I as " "
+state J as " "
+state K as " "
+state L as " "
+state O as " "
+state P as " "
+state Q as " "
+state if <<choice>>
+state if2 <<choice>>
+state if3 <<choice>>
+state if5 <<choice>>
+
+[*] --> A
+A --> if: Current turn player requests Play
+if --> B: [pieces of current turn player on board 0..2]
+if --> C
+B --> D: System requests to introduce a coordinate
+D --> if2: Current turn player introduces a coordinate
+if2 --> E: [error]
+note on link
+    Coordinate is not valid
+    Coordinate is occuped
+end note
+if2 --> F
+E --> P: System shows error
+F --> if5: System shows updated board
+C --> I: System requests to introduce origin coordinate
+I --> if3: Current turn player introduces origin coordinate
+if3 --> J: [error]
+note on link
+    Coordinate is not valid
+    Coordinate is empty
+    Piece is not of active player
+end note
+if3 --> K
+J --> P: System shows error
+K --> L: System requests to introduce target coordinate
+L --> if2: Current turn player introduces target coordinate
+if5 --> O: [winner]
+O --> Q: System shows winner message
+if5 --> P
+Q --> [*]: System allows Resume
+P --> [*]: System allows Play
+@enduml
+
+@startuml resume_usecase
+state OUT_GAME
+state INITIAL
+state EXIT
+state requested as " "
+state allowed as " "
+
+[*] --> OUT_GAME
+OUT_GAME --> requested: Player request to resume a new game
+requested --> allowed: System requests to continue
+allowed --> INITIAL: Player introduces yes
+allowed --> EXIT: Player introduces no
+INITIAL --> [*]
+EXIT --> [*]
 @enduml
