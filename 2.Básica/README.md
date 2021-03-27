@@ -22,6 +22,15 @@ Universo Santa Tecla
 |---|---|
 | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/actores.svg) | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/contexto.svg) |  
 
+## Vista de Caso de Uso Start  
+![Start](./docs/diagrams/out/vistaCasosUso/StateDiagramFluxInitialState.svg)  
+
+## Vista de Caso de Uso Propose  
+![Propose](./docs/diagrams/out/vistaCasosUso/StateDiagramFluxPlayState.svg)  
+
+## Vista de Caso de Uso Resume  
+![Resume](./docs/diagrams/out/vistaCasosUso/resume_usecase.svg)  
+
 ### Prototipo de Interfaz
   
 #### Número de jugadores: 0  
@@ -247,3 +256,29 @@ Column: 2
 X Player: You win!!! :-)
 Do you want to continue? (y/n):
 ```
+## Analisis  
+![Analisis](./docs/diagrams/out/analisis/analisis.svg)  
+
+## Casos de Uso  
+
+### Analisis Start  
+![Propose](./docs/diagrams/out/analisis/start.svg)  
+
+### Analisis Propose  
+![Resume](./docs/diagrams/out/analisis/play.svg)  
+
+### Analisis Resume  
+![ShowBoard](./docs/diagrams/out/analisis/resume.svg)  
+
+## Paquetes  
+
+### Vistas  
+![ShowBoard](./docs/diagrams/out/analisis/packageViews.svg)  
+
+### Controladores  
+![ShowBoard](./docs/diagrams/out/analisis/packageControllers.svg)  
+
+### Modelos  
+![ShowBoard](./docs/diagrams/out/analisis/modelspackage.svg)  
+
+### Types  
