@@ -6,10 +6,22 @@ Universo Santa Tecla
 
 1. [Requisitos](#requisitos)  
 2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
-2.1. [Prototipo de Interfaz](#prototipo-de-interfaz)  
-2.1.1. [Gráfica](#grfica)  
-2.1.2. [Consola](#consola)  
- 
+2.1. [Vista de Caso de Uso Start](#vista-de-caso-de-uso-start)  
+2.2. [Vista de Caso de Uso Play](#vista-de-caso-de-uso-play)  
+2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)
+2.4. [Prototipo de Interfaz](#prototipo-de-interfaz)  
+2.4.1. [Gráfica](#grfica)  
+2.4.2. [Consola](#consola)  
+3. [Analisis](#analisis)  
+3.1. [Casos de Uso](#casos-de-uso)  
+3.1.1. [Analisis Start](#analisis-start)  
+3.1.2. [Analisis Play](#analisis-play)  
+3.1.3. [Analisis Resume](#analisis-resume)  
+3.2. [Paquetes](#paquetes)  
+3.2.1. [Vistas](#vistas)  
+3.2.2. [Controladores](#controladores)  
+3.2.3. [Modelos](#modelos)  
+3.2.4. [Types](#types) 
   
 ## Requisitos  
 
@@ -21,6 +33,15 @@ Universo Santa Tecla
 | Diagrama de Actores y Casos de Uso | Diagrama de Contexto |
 |---|---|
 | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/actores.svg) | ![TicTacToe](./docs/diagrams/out/vistaCasosUso/contexto.svg) |  
+
+## Vista de Caso de Uso Start  
+![Start](./docs/diagrams/out/vistaCasosUso/StateDiagramFluxInitialState.svg)  
+
+## Vista de Caso de Uso Play  
+![Play](./docs/diagrams/out/vistaCasosUso/StateDiagramFluxPlayState.svg)  
+
+## Vista de Caso de Uso Resume  
+![Resume](./docs/diagrams/out/vistaCasosUso/resume_usecase.svg)  
 
 ### Prototipo de Interfaz  
 
@@ -82,3 +103,29 @@ Column: 3
 X Player: You win!!! :-)
 Do you want to continue? (y/n):
 ```
+## Analisis  
+![Analisis](./docs/diagrams/out/analisis/analisis.svg)  
+
+## Casos de Uso  
+
+### Analisis Start  
+![Start](./docs/diagrams/out/analisis/start.svg)  
+
+### Analisis Play 
+![Play](./docs/diagrams/out/analisis/play.svg)  
+
+### Analisis Resume  
+![Resume](./docs/diagrams/out/analisis/resume.svg)  
+
+## Paquetes  
+
+### Vistas  
+![ShowBoard](./docs/diagrams/out/analisis/packageViews.svg)  
+
+### Controladores  
+![ShowBoard](./docs/diagrams/out/analisis/packageControllers.svg)  
+
+### Modelos  
+![ShowBoard](./docs/diagrams/out/analisis/modelspackage.svg)  
+
+### Types  
