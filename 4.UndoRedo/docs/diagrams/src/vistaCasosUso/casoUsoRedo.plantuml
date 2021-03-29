@@ -1,0 +1,20 @@
+@startuml StateDiagramRedoUndoState
+state A as "IN_GAME"
+state B as " "
+state C as " "
+state D as " "
+state E as " "
+state if <<choice>>
+
+[*] --> A
+A --> B: Current turn player requests Redo
+B --> if: System shows updated board
+if --> D: [redoable]
+note on link
+    undo has been made previously
+end note
+if --> E
+D --> C: System shows Menu with Play, Undo and Redo options
+C --> [*]: System allows Play, Undo and Redo
+E --> [*]:  System allows Play\nSystem allows Redo\nSystem allows Undo
+@enduml
