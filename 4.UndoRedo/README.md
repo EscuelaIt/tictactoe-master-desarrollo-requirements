@@ -58,7 +58,98 @@ Universo Santa Tecla
 
 ```
 --- TIC TAC TOE ---
-.... JUGAR y COMPLETARLO
+---------------
+ |   |   |   | 
+ |   |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+1
+Enter a coordinate to put a token:
+Row: 1
+Column: 1
+---------------
+ | X |   |   | 
+ |   |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+1
+Enter a coordinate to put a token:
+Row: 2
+Column: 1
+---------------
+ | X |   |   | 
+ | O |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+2
+---------------
+ | X |   |   | 
+ |   |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+3) Redo previous action
+3
+---------------
+ | X |   |   | 
+ | O |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+1
+Enter a coordinate to put a token:
+Row: 1
+Column: 2
+---------------
+ | X | X |   | 
+ | O |   |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+1
+Enter a coordinate to put a token:
+Row: 2
+Column: 2
+---------------
+ | X | X |   | 
+ | O | O |   | 
+ |   |   |   | 
+---------------
+
+----- Choose one option -----
+1) Do a action
+2) Undo previous action
+1
+Enter a coordinate to put a token:
+Row: 1
+Column: 3
+---------------
+ | X | X | X | 
+ | O | O |   | 
+ |   |   |   | 
+---------------
+X player: You win!!! :-)
+Do you want to continue? (y/n): 
 ```
 
 ## Analisis  
