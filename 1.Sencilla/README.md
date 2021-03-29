@@ -5,7 +5,7 @@ Universo Santa Tecla
 **Índice**
 
 1. [Requisitos](#requisitos)  
-2. [Vista de Casos de Uso](#vista-de-casos-de-uso)
+2. [Vista de Casos de Uso](#vista-de-casos-de-uso)  
 2.1. [Vista de Caso de Uso Start](#vista-de-caso-de-uso-start)  
 2.2. [Vista de Caso de Uso Play](#vista-de-caso-de-uso-play)  
 2.3. [Vista de Caso de Uso Resume](#vista-de-caso-de-uso-resume)    
@@ -172,6 +172,7 @@ Do you want to continue? (y/n):
 ![Resume](./docs/diagrams/out/analisis/resume.svg)  
 
 ## Paquetes  
+![ShowBoard](./docs/diagrams/out/analisis/arquitectura-paquetes.svg) 
 
 ### Vistas  
 ![ShowBoard](./docs/diagrams/out/analisis/packageViews.svg)  
@@ -183,3 +184,4 @@ Do you want to continue? (y/n):
 ![ShowBoard](./docs/diagrams/out/analisis/modelspackage.svg)  
 
 ### Types  
+![ShowBoard](./docs/diagrams/out/analisis/typespackages.svg)  

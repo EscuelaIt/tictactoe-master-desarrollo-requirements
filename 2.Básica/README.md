@@ -284,6 +284,7 @@ Do you want to continue? (y/n):
 ![Resume](./docs/diagrams/out/analisis/resume.svg)  
 
 ## Paquetes  
+![ShowBoard](./docs/diagrams/out/analisis/arquitectura-paquetes.svg) 
 
 ### Vistas  
 ![ShowBoard](./docs/diagrams/out/analisis/packageViews.svg)  
@@ -295,3 +296,4 @@ Do you want to continue? (y/n):
 ![ShowBoard](./docs/diagrams/out/analisis/modelspackage.svg)  
 
 ### Types  
+![ShowBoard](./docs/diagrams/out/analisis/typespackages.svg)  

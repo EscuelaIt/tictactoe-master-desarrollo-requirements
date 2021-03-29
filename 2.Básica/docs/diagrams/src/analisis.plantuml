@@ -497,6 +497,18 @@ note on link
 end note
 @enduml
 
+@startuml arquitectura-paquetes
+package models #DDDDDD { }
+package views #DDDDDD { }
+package controllers #DDDDDD { }
+package types #DDDDDD { }
+views .down.> controllers
+views .down.> types
+controllers .down.> models
+controllers .down.> types
+models .down.> types
+@enduml
+
 @startuml packageViews
 class Coordinate as "types.\nCoordinate"
 enum Error as "types.\nError"
@@ -534,6 +546,18 @@ class  views.ColorView{
 }
 
 enum  views.Message{
+    +TITLE
+    +HORIZONTAL_LINE
+    +VERTICAL_LINE
+    +ACTION_COMMAND
+    +UNDO_COMMAND
+    +REDO_COMMAND
+    +ENTER_COORDINATE_TO_PUT
+    +COORDINATE_TO_PUT
+    +COORDINATE_TO_REMOVE
+    +COORDINATE_TO_MOVE
+    +PLAYER_WIN
+    +RESUME
     ~ writeln()
     ~ write()
 }
@@ -676,4 +700,30 @@ models.Player ..> Error
 models.Turn ..> Error
 models.Game ..> Error
 models.Game ..> Coordinate
+@enduml
+
+@startuml typespackages
+package types  { }
+
+class  types.Coordinate{
+    #getDimension()
+    +equals(Object)
+}
+
+enum  types.Color{
+    +X
+    +O
+    +NULL
+    +get(Int)
+    +isNull()
+}
+
+enum  types.Error{
+    +NOT_EMPTY
+    +NOT_OWNER
+    +SAME_COORDINATES
+    +WRONG_COORDINATES
+    +NULL
+    +isNull()
+}
 @enduml
