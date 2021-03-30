@@ -1,0 +1,15 @@
+@startuml useCase
+left to right direction
+actor Player
+usecase Start
+usecase Play
+usecase Resume
+usecase Undo
+usecase Redo
+
+Player --> Start
+Player --> Play
+Player --> Resume
+Player --> Undo
+Player --> Redo
+@enduml

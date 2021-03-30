@@ -1,0 +1,20 @@
+@startuml StateDiagramGameStates(ContextDiagram)
+state INITIAL
+state IN_GAME
+state OUT_GAME
+state EXIT
+state if_finished <<choice>>
+state if_resumed <<choice>>
+
+[*] --> INITIAL
+INITIAL --> IN_GAME: Start
+IN_GAME --> if_finished: Play
+IN_GAME --> if_finished: Undo
+IN_GAME --> if_finished: Redo
+if_finished --> IN_GAME
+if_finished --> OUT_GAME: [finished]
+OUT_GAME --> if_resumed: Resume
+if_resumed --> INITIAL: [continued]
+if_resumed --> EXIT
+EXIT --> [*]
+@enduml
