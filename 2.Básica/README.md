@@ -310,5 +310,5 @@ Do you want to continue? (y/n):
 ### Vista de Participantes  
 ![Participantes](./docs/diagrams/out/Diseño/second/diseño_caso_uso.svg)  
 
-### Vista de Interacción de Participantes  
+### Vista de Interaccion de Participantes  
 ![Interaccion_Participantes](./docs/diagrams/out/Diseño/third/secuencia.svg)  
