@@ -1,0 +1,18 @@
+@startuml StateDiagramFluxUndoState
+state A as "IN_GAME"
+state B as " "
+state C as " "
+state E as " "
+state if <<choice>>
+
+[*] --> A
+A --> B: Current turn player requests Undo
+B --> if: System shows updated board
+if --> C: [undoable]
+note on link
+    currentTurnPlayer.Pieces > 0
+end note
+if --> E
+C --> [*]: System allows Play\nSystem allows Redo if redoable\nSystem allows Undo\nSystem allows Exit
+E --> [*]:  System allows Play\nSystem allows Redo if redoable\nSystem allows Exit
+@enduml

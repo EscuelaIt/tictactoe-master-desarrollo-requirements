@@ -152,7 +152,44 @@ Column: 1
 3) Exit game
 3
 Do you want to save the game?? (y/n): y
-Name: juego2
+Name: game1
+Do you want to continue? (y/n): y
+
+--- TIC TAC TOE ---
+----- Choose one option -----
+1. Start a new game
+2. Open a saved game
+2
+----- Choose one option -----
+1. game1.mm
+1
+game1.mm
+---------------
+| X | - | O |
+| X | - | O |
+| - | - | - |
+---------------
+----- Choose one option -----
+1) Do a movement
+2) Undo previous movement
+3) Exit game
+1
+---------------
+| X | - | O |
+| X | - | O |
+| - | - | - |
+---------------
+Enter a coordinate to put a token:
+Row: 3
+Column: 1
+---------------
+| X | - | O |
+| X | - | O |
+| X | - | - |
+---------------
+X Player: You win!!! :-)
+Do you want to save the game?? (y/n): n
+Do you want to continue? (y/n):
 ```
 
 ## Analisis  

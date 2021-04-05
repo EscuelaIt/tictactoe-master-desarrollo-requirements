@@ -1,0 +1,10 @@
+@startuml StateDiagramFluxExitState
+state IN_GAME
+state start as " "
+state finished as "OUT_GAME"
+
+[*] --> IN_GAME
+IN_GAME --> start: Player requests to exit
+start --> finished: System allows Save
+finished --> [*]
+@enduml

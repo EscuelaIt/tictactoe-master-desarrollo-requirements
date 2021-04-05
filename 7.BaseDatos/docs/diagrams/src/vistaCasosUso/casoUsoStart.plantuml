@@ -1,0 +1,11 @@
+@startuml StateDiagramFluxInitialState
+state INITIAL
+state IN_GAME
+state start as " "
+state started as " "
+[*] --> INITIAL
+INITIAL --> start: Player requests to start a new game
+start --> started: System shows the title and the empty board
+started  --> IN_GAME: System allows Play
+IN_GAME --> [*]
+@enduml

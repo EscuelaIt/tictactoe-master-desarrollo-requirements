@@ -1,0 +1,15 @@
+@startuml StateDiagramFluxOpenState
+state INITIAL
+state IN_GAME as " "
+state start as " "
+state finished as " "
+state if <<choice>>
+
+[*] --> INITIAL
+INITIAL --> start: Player requests to open a saved game
+start --> if: System shows the title and the saved board
+if  --> IN_GAME
+if  --> finished: [finished]
+finished --> [*]: System allows Resume
+IN_GAME --> [*]: System allows Play 
+@enduml

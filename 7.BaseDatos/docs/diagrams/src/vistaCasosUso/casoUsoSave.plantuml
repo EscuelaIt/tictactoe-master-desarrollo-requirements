@@ -1,0 +1,19 @@
+@startuml save
+state OUT_GAME
+state FINAL
+state requested as " "
+state allowed as " "
+state gameName as " "
+state playerGameName as " "
+state resume as " "
+
+[*] --> OUT_GAME
+OUT_GAME --> requested: Player request to save a game
+requested --> allowed: System requests to confirm
+allowed --> resume: Player introduces yes
+resume --> playerGameName: System request game name
+playerGameName --> gameName: Player introduce game name
+allowed --> gameName: Player introduces no
+gameName --> FINAL: System allows Resume
+FINAL --> [*]
+@enduml

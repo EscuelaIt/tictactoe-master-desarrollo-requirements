@@ -1,0 +1,51 @@
+@startuml StateDiagramFluxPlayState
+state A as "IN_GAME"
+state B as " "
+state C as " "
+state D as " "
+state E as " "
+state F as " "
+state I as " "
+state J as " "
+state K as " "
+state L as " "
+state O as " "
+state P as " "
+state Q as " "
+state if <<choice>>
+state if2 <<choice>>
+state if3 <<choice>>
+state if5 <<choice>>
+
+[*] --> A
+A --> if: Current turn player requests Play
+if --> B: [pieces of current turn player on board 0..2]
+if --> C
+B --> D: System requests to introduce a coordinate
+D --> if2: Current turn player introduces a coordinate
+if2 --> E: [error]
+note on link
+    Coordinate is not valid
+    Coordinate is occuped
+end note
+if2 --> F
+E --> P: System shows error
+F --> if5: System shows updated board
+C --> I: System requests to introduce origin coordinate
+I --> if3: Current turn player introduces origin coordinate
+if3 --> J: [error]
+note on link
+    Coordinate is not valid
+    Coordinate is empty
+    Piece is not of active player
+end note
+if3 --> K
+J --> P: System shows error
+K --> L: System requests to introduce target coordinate
+L --> if2: Current turn player introduces target coordinate
+if5 --> O: [winner]
+O --> Q: System shows winner message
+if5 --> P
+Q --> [*]: System allows Save
+P --> [*]: System allows Play\nSystem allows Redo\nSystem allows Undo\nSystem allows Exit
+@enduml
