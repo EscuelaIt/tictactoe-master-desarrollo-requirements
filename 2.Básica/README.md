@@ -23,6 +23,10 @@ Universo Santa Tecla
 3.2.2. [Controladores](#controladores)  
 3.2.3. [Modelos](#modelos)  
 3.2.4. [Types](#types)  
+4. [Diseño](#diseño)  
+   4.1. [Vista de Despliegue](#vista-de-despliegue)  
+   4.2. [Vista de Participantes](#vista-de-participantes)  
+   4.3. [Vista de Interaccion de Participantes](#vista-de-interaccion-de-participantes)  
   
 ## Requisitos  
 
@@ -297,3 +301,14 @@ Do you want to continue? (y/n):
 
 ### Types  
 ![ShowBoard](./docs/diagrams/out/analisis/typespackages.svg)  
+
+## Diseño  
+
+### Vista de Despliegue  
+![Despliegue](./docs/diagrams/out/Diseño/first/diseño_la_arquitectura.svg)  
+
+### Vista de Participantes  
+![Participantes](./docs/diagrams/out/Diseño/second/diseño_caso_uso.svg)  
+
+### Vista de Interacción de Participantes  
+![Interaccion_Participantes](./docs/diagrams/out/Diseño/third/secuencia.svg)  
