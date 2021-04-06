@@ -4,7 +4,7 @@ allow_mixing
 actor :Player: as Playerr
 
 package controllers  {
-    object "openController\n:PlayController" as OpenController{
+    object "openController\n:OpenController" as OpenController{
 
     }
  }

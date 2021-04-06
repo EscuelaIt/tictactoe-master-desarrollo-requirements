@@ -4,7 +4,7 @@ allow_mixing
 actor :Player: as Playerr
 
 package controllers  {
-    object "exitController\n:PlayController" as ExitController{
+    object "exitController\n:ExitController" as ExitController{
 
     }
  }
