@@ -1,4 +1,4 @@
-# TicTacToe. Requisitos Gráficos
+# TicTacToe. Requisitos Undo/Redo
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
