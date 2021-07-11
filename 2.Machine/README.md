@@ -1,4 +1,4 @@
-# TicTacToe. Requisitos Básica
+# TicTacToe. Requisitos Machine
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   

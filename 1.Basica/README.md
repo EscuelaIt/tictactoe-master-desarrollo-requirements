@@ -1,4 +1,4 @@
-# TicTacToe. Requisitos Sencilla
+# TicTacToe. Requisitos Básica
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
